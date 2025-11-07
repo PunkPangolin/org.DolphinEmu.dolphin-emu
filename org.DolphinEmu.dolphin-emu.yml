@@ -89,6 +89,8 @@ modules:
           is-main-source: true
       - type: file
         path: org.DolphinEmu.dolphin-emu.metainfo.xml
+      - type: patch
+        path: fix-build-qt6_10.patch
       - type: script
         commands:
           - |
