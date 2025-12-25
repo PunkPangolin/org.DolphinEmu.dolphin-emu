@@ -51,7 +51,6 @@ modules:
       - -DENABLE_SDL=ON
       - -DENABLE_EVDEV=ON
       - -DDISTRIBUTOR=Flathub
-      - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
     cleanup:
       - /share/man
     post-install:
